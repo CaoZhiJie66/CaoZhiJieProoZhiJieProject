@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-o
-=======
-s
->>>>>>> 18cdc502fcfbea59d581eb674a4aafee57b92af9
+tu
