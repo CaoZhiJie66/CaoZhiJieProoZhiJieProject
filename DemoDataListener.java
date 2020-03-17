@@ -23,6 +23,10 @@ import com.alibaba.fastjson.JSON;
 public class DemoDataListener extends AnalysisEventListener<TestUser> {
 	
     private static final Logger LOGGER = LoggerFactory.getLogger(DemoDataListener.class);
+	
+	
+	
+	
     /**
      * 每隔5条存储数据库，实际使用中可以3000条，然后清理list ，方便内存回收
      */
