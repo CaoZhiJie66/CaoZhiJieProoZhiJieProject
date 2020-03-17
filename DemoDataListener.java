@@ -48,6 +48,7 @@ public class DemoDataListener extends AnalysisEventListener<TestUser> {
      */
     public DemoDataListener(ITestUserService demoDAO) {
         this.demoDAO = demoDAO;  
+		
     }
 
     /**
