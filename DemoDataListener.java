@@ -91,7 +91,7 @@ public class DemoDataListener extends AnalysisEventListener<TestUser> {
      * 加上存储数据库
      */
     private void saveData() {
-        的
+        
         LOGGER.info("{}条数据，开始存储数据库！", list.size());
         demoDAO.insertAll(list);
         LOGGER.info("存储数据库成功！");
