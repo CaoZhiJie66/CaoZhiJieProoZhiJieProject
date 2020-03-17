@@ -47,7 +47,7 @@ public class DemoDataListener extends AnalysisEventListener<TestUser> {
      * @param demoDAO
      */
     public DemoDataListener(ITestUserService demoDAO) {
-		suos
+		你
         this.demoDAO = demoDAO;  
 		
     }
