@@ -21,7 +21,6 @@ import com.alibaba.fastjson.JSON;
  */
 // 有个很重要的点 DemoDataListener 不能被spring管理，要每次读取excel都要new,然后里面用到spring可以构造方法传进去
 public class DemoDataListener extends AnalysisEventListener<TestUser> {
-	
     private static final Logger LOGGER = LoggerFactory.getLogger(DemoDataListener.class);
 	
 	
