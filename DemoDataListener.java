@@ -65,7 +65,7 @@ public class DemoDataListener extends AnalysisEventListener<TestUser> {
         LOGGER.info("解析到一条数据:{}", JSON.toJSONString(data));
 	    他
         list.add(data);
-        好的
+        好的的
         // 达到BATCH_COUNT了，需要去存储一次数据库，防止数据几万条数据在内存，容易OOM
         if (list.size() >= BATCH_COUNT) {
             saveData();
