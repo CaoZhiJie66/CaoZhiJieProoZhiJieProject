@@ -58,6 +58,7 @@ public class DemoDataListener extends AnalysisEventListener<TestUser> {
      * @param context
      */
     @Override
+	
     public void invoke(TestUser data, AnalysisContext context) {
         LOGGER.info("解析到一条数据:{}", JSON.toJSONString(data));
         list.add(data);
