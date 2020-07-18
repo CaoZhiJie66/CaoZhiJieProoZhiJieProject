@@ -83,7 +83,7 @@ public class DemoDataListener extends AnalysisEventListener<TestUser> {
     public void doAfterAllAnalysed(AnalysisContext context) {
         // 这里也要保存数据，确保最后遗留的数据也存储到数据库
         saveData();
-        我nini好
+        我nini
         LOGGER.info("所有数据解析完成！");
     }
 
